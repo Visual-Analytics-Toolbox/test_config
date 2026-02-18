@@ -27,6 +27,7 @@ jobs:
           TOKEN: ${{ secrets.ACTIONS }}
           GIT_EMAIL: "stella.a.schlotter@gmail.com"
           GIT_USERNAME: "Stella"
-          PULL_REQUEST_BRANCH_NAME: main
+          PULL_REQUEST_BRANCH_NAME: "main"
+
 
 
