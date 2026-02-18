@@ -21,13 +21,14 @@ jobs:
         uses: kbrashears5/github-action-file-sync@v3.0.0
         with:
           REPOSITORIES: |
-            Visual-Analytics-Toolbox/test_repo@main
+            Visual-Analytics-Toolbox/test_repo@unique_like_a_snowflake
           FILES: |
             README.md
           TOKEN: ${{ secrets.ACTIONS }}
           GIT_EMAIL: "stella.a.schlotter@gmail.com"
           GIT_USERNAME: "Stella"
-          PULL_REQUEST_BRANCH_NAME: "unique_like_a_snowflake"
+          PULL_REQUEST_BRANCH_NAME: "main"
+
 
 
 
