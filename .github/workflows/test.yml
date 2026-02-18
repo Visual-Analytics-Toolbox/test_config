@@ -15,11 +15,12 @@ jobs:
       - name: Fetching Local Repository
         uses: actions/checkout@main
       - name: File Sync
-        uses: kbrashears5/github-action-file-sync@v2.0.0
+        uses: kbrashears5/github-action-file-sync@v3.0.0
         with:
           REPOSITORIES: |
             Visual-Analytics-Toolbox/test_repo@main
           FILES: |
             README.md
           TOKEN: ${{ secrets.ACTIONS }}
+
           PULL_REQUEST_BRANCH_NAME: main
